@@ -20,7 +20,7 @@ android:
     - addon-google_apis-google-19
 
     # System image for emulator.
-    - sys-img-armeabi-v7a-android-21
+    - sys-img-armeabi-v7a-android-26
 
   licenses:
     - 'android-sdk-license-.+'
@@ -34,4 +34,4 @@ android:
 
 script:
   - android list target
-  #- ./gradlew connectedAndroidTest
+  - ./gradlew connectedAndroidTest
